@@ -1,0 +1,22 @@
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.colorbuttons button
+{
+    color:rgb(27, 5, 156);
+    background-color: rgb(14, 201, 36);
+}
+/* in body we dont need # for styling it */
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/099/443/non_2x/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bar{
+    width:10px;
+    background-color:yellow;
+    margin:1px;
+}
