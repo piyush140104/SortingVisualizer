@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade semgrep
           semgrep scan --config p/ci --sarif --output semgrep.sarif || true
       - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v4
+        uses: github/codeql-action/upload-sarif@f83c2935a5a5a4c0c8f7f7f7f7f7f7f7f7f7f7
         with:
           sarif_file: semgrep.sarif
         if: always()
