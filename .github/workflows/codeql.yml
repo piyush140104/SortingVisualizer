@@ -44,6 +44,6 @@ jobs:
           echo '  make release'
           exit 1
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@f97e8737b8b0c094d116fde2f2c08e5e95fba4e
+        uses: github/codeql-action/analyze@f97e8737b8b0c094d116fde2f2c08e5e95fba4e8
         with:
           category: /language:${{matrix.language}}
